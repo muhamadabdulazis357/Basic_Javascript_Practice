@@ -6,22 +6,22 @@ const input = document.querySelector('input');
 input.addEventListener('keydown', (e) => {
 	switch (e.code) {
 		case 'ArrowUp':
-			console.log('Tombol Arah Atas');
-			break;
+		console.log('ArrowUp');
+		break;
 		case 'ArrowDown':
-			console.log('Tombol Arah Bawah');
-			break;
+		console.log('ArrowDown');
+		break;
 		case 'ArrowLeft':
-			console.log('Tombol Arah Kiri');
-			break;
+		console.log('ArrowLeft');
+		break;
 		case 'ArrowRight':
-			console.log('Tombol Arah Kanan');
-			break;
+		console.log('ArrowRight');
+		break;
 		default:
-			console.log('diabaikan');
-	}
-});
+		console.log('ignored');
+		}
+	});
 
 // input.addEventListener('keyup', () => {
-// 	console.log('Tombol dirilis');
+// console.log('Button released');
 // });

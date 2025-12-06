@@ -3,12 +3,12 @@ const input = document.querySelector('input');
 const list = document.querySelector('#notes');
 
 // input.addEventListener('change', (e) => {
-//     console.log('Nilai Berubah!');
+//     console.log('Value Change!');
 // });
 
 input.addEventListener('input', (e) => {
     document.querySelector('h1').innerText = input.value;
-    console.log('Nilai berhasil di input sayang');
+    console.log('The value was successfully input, dear.');
 });
 
 form.addEventListener('submit', function (e) {

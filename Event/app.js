@@ -15,11 +15,11 @@ eventbtn.addEventListener('click', stepSatu);
 eventbtn.addEventListener('click', stepDua);
 
 function stepSatu() {
-	console.log('step satu');
+	console.log('step one');
 }
 
 function stepDua() {
-	console.log('step dua');
+	console.log('step two');
 }
 
 // eventbtn.onclick = stepSatu;
