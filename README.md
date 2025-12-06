@@ -1,2 +1,2 @@
-# LatihanJavascriptDasar
-Belajar JavaScript Dasar, Konsep OPP, Asynchronous, Dan DOM
+# Basic Javascript Practice
+Learn Basic JavaScript, OPP Concepts, Asynchronous, and DOM
